@@ -1,0 +1,382 @@
+@media screen and ( max-width : 992px) and (min-width : 768px )
+{
+    .navbar
+    {
+        flex-direction: column;
+    }
+    .navbar ul
+    {
+        padding-top: 10px;
+    }
+    .container
+    {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+    .simone
+    {
+        width: 100%;
+    }
+    .download
+    {
+        text-align: left;
+        width: 90%;
+    }
+    .counters
+    {
+        justify-content: space-evenly;
+        padding: 0;
+        padding-top: 40px;
+    }
+    .service
+    {
+        width: 45%;
+    }
+    .re-con
+    {
+        width: 90%;
+    }
+    .my-skill
+    {
+        width: 90%;
+    }
+    .slide5
+    {
+        width: 90%;
+    }
+    .col1
+    {
+        width: 45%;
+    }
+    .col2
+    {
+        width: 45%;
+    }
+    .col3
+    {
+        width: 45%;
+    }
+    .client
+    {
+        flex-wrap: wrap;
+    }
+    .cl-talk
+    {
+        width: 100%;    
+    }
+    .info
+    {
+        justify-content: center;
+    }
+    .footer
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .copy
+    {
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width : 767px)  and (min-width : 576px) 
+{
+    .container
+    {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+    .simone
+    {
+        width: 80%;
+    }
+    .navbar
+    {
+        flex-direction: column;
+    }
+    .navbar ul
+    {
+        padding-top: 10px;
+    }
+    .download
+    {
+        text-align: left;
+        width: 70%;
+    }
+    .counters
+    {
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        padding:0 10px;
+        padding-top: 40px;
+    }
+    .counter
+    {
+        width: 35%;
+        border: none;
+    }
+    .counter1
+    {
+        width: 35%;        
+    }
+    .row1
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .row2
+    {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .row3
+    {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .service
+    {
+        width: 65%;
+        padding-top: 20px;
+    }
+    .slide3
+    {
+        padding-top: 0;
+    }
+    .slide4
+    {
+        padding-top: 0;
+    }
+    .skill-row
+    {
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .my-skill h3
+    {
+        padding-left: 20px;
+    }
+    .pbar
+    {
+        width: 100%;
+    }
+    .client
+    {
+        flex-wrap: wrap;
+    }
+    .cl-talk
+    {
+        width: 100%;    
+    }
+    .info
+    {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .add
+    {
+        width: 80%;
+        display: flex;
+        padding-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .add p 
+    {
+        width: 40%;
+        text-align: center;
+    }
+    .send
+    {
+        width: 80%;
+    }
+
+    .send form input 
+    {
+        width: 90%;
+        height: 30%;
+        padding: 10px;
+    }
+    .footer
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .copy
+    {
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width : 575px) and (min-width : 0)
+{
+    .container
+    {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+    .simone
+    {
+        width: 100%;
+    }
+    .navbar
+    {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+    .navbar li 
+    {
+        padding: 0 5px;
+    }
+    .navbar ul
+    {
+        padding-top: 10px;
+    }
+    .about h2
+    {
+        font-size: 110px;
+    }
+
+    .download
+    {
+        text-align: left;
+        width: 100%;
+        padding-left: 5px;
+    }
+    .counters
+    {
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        padding:0 10px;
+        padding-top: 40px;
+    }
+    .counter
+    {
+        width: 45%;
+        border: none;
+    }
+    .counter1
+    {
+        width: 45%;        
+    }
+    .row1
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .row2
+    {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .row3
+    {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    .service
+    {
+        width: 95%;
+        padding-top: 20px;
+    }
+    .slide3
+    {
+        padding-top: 0;
+    }
+    .slide4
+    {
+        padding-top: 0;
+    }
+    .skill-row
+    {
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .my-skill h3
+    {
+        padding-left: 20px;
+    }
+    .pbar
+    {
+        width: 100%;
+    }
+    .menu-pic
+    {
+        flex-direction: column;
+    }
+    .col1
+    {
+        width: 100%;
+    }
+    .col3
+    {
+        width: 100%;
+    }
+    .col2
+    {
+        width: 100%;
+    }
+    .client
+    {
+        flex-wrap: wrap;
+    }
+    .cl-talk
+    {
+        width: 100%;    
+    }
+    .info
+    {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .add
+    {
+        width: 80%;
+        display: flex;
+        padding-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .add p 
+    {
+        width: 40%;
+        text-align: center;
+    }
+    .send
+    {
+        width: 80%;
+    }
+
+    .send form input 
+    {
+        width: 90%;
+        height: 30%;
+        padding: 10px;
+    }
+    .footer
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .copy
+    {
+        padding-bottom: 20px;
+    }
+
+
+    
+}
